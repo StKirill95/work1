@@ -1,7 +1,8 @@
 body{
     margin: auto;
     padding: 0;
-    background-color: blanchedalmond
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -66,3 +67,45 @@ a:hover{
    /* border: 2px solid blue;*/
 }
 
+.block1{
+    width: 95%;
+    margin-left: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    align-content: center;
+    /*border: 2px solid red*/
+}
+.comp{
+    width: 40%;
+    height: 400px;
+}
+
+.rightside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.secondmain{
+    list-style: none;
+}
+.second:before{
+    content: "-"
+}
+
+h1{
+    color: rgb(87, 180, 118);
+}
+
+@media (max-width:720px) {
+    .comp{
+        display: none;
+    }
+}
