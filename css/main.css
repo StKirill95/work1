@@ -1,23 +1,49 @@
 body{
-    margin: 0;
+    margin: auto;
     padding: 0;
     background-color: blanchedalmond
 }
 
+header{
+    
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: auto;
+    /*border: 2px solid green;*/
+}
+
 .logo{
-    background-color: green;
-    border: 2px solid green;
-    margin: 20px 0px 0px 20px;
+    background-color: rgb(87, 180, 118);
+   /* border: 2px solid black;*/
+    border-radius: 50%;
+    margin: 10px 0px 0px 10px;
+    padding: 10px 10px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blanchedalmond;
 
 }
 
 .containerheader{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /*border: 2px solid yellow;*/
+    width: 100%
+}
+.twofirst{
+    /*border: 2px solid red;*/
+    display: flex;
+    flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     align-content: center;
+    
 }
 .menu{
     list-style-type: none;
@@ -33,6 +59,10 @@ a{
     margin: 0px 0px 0px 30px;
 }
 a:hover{
-    color: green;
+    color: rgb(87, 180, 118);
+}
+
+.tele{
+   /* border: 2px solid blue;*/
 }
 
