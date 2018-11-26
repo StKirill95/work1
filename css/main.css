@@ -3,11 +3,13 @@ body{
     padding: 0;
     background-color: blanchedalmond;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    word-wrap: break-word;
 }
 
 header{
     
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -33,6 +35,7 @@ header{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    align-content: center;
     /*border: 2px solid yellow;*/
     width: 100%
 }
@@ -65,23 +68,27 @@ a:hover{
 
 .tele{
    /* border: 2px solid blue;*/
+   margin-right: 20px;
 }
 
 .block1{
     width: 95%;
     margin-left: auto;
+    margin-right: auto;
     margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: stretch;
-    flex-wrap: wrap;
+    flex-wrap:nowrap;
     align-content: center;
     /*border: 2px solid red*/
 }
 .comp{
     width: 40%;
-    height: 400px;
+    height: 350px;
+    margin-right: 50px;
+    margin-left: 20px;
 }
 
 .rightside{
@@ -91,6 +98,7 @@ a:hover{
     align-items: center;
     flex-wrap: wrap;
     align-content: center;
+    
 }
 
 .secondmain{
@@ -103,9 +111,30 @@ a:hover{
 h1{
     color: rgb(87, 180, 118);
 }
+p{
+    text-align: left;
+}
 
 @media (max-width:720px) {
     .comp{
         display: none;
     }
+}
+
+.prio{
+    background-color: rgb(87, 180, 118);
+ color: #fff;
+ font-size: 16px;
+ text-shadow: 0 1px 0 #757575;
+ padding: 4px 0 5px 0;
+ margin: 0;
+ cursor: pointer;
+ border: 0;
+ border-top: 1px solid #87c286;
+ border-right: 1px solid #0e780c;
+ border-left: 1px solid #0e780c;
+ border-bottom: 1px solid #0e780c;
+ box-shadow: 0 -1px 0 #0e780c, 0 1px 0 #fff;
+ width: 150px;
+ border-radius: 2px;
 }
