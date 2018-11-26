@@ -7,6 +7,8 @@ body{
     word-wrap: break-word;
 }
 
+
+
 header{
     
     width: 100%;
@@ -115,7 +117,7 @@ p{
     text-align: left;
 }
 
-@media (max-width:720px) {
+@media (max-width:920px) {
     .comp{
         display: none;
     }
@@ -138,3 +140,23 @@ p{
  width: 150px;
  border-radius: 2px;
 }
+
+.block2  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: stretch;
+    margin:30px 0px 0px 20px;
+    width: 95%;
+
+}
+.tov1{
+    border: 2px solid black;
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+    min-width: 300px;
+    width: calc(100%/3 - 15px);
+}
+
